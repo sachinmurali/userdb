@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Name: {{ user.name }}</h1>
+
+  <p><strong>User ID:</strong> {{ user.user_id }}</p>
+  <p><strong>Email:</strong> {{ user.email }}</p> 
+  <p><strong>Created At:</strong> {{ user.created_at }}</p>
+  <p><strong>Updated At:</strong> {{ user.updated_at }}</p>
+
+{% endblock %}
